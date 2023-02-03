@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bibliography</title>
+</head>
+
+<style>
+	
+.btn1 {color: white; font-family: avenir; font-size: 40px;}
+
+th, td {
+  border: 5px solid #8DC6C1;
+  border-radius: 10px;
+
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #2D3049;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn1:hover {
+  background-color: #8DC6C1;
+}
+
+td img.hawksbillseaturtle {
+hover: box-shadow: 0 0 20px 10px #8DC6C1;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 300px;
+}
+
+img.hawksbillseaturtle:hover {
+  box-shadow: 0 0px 10px 10px #8DC6C1;
+}
+
+td img.whaleshark {
+hover: box-shadow: 0 0 20px 10px #8DC6C1;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 300px;
+}
+
+img.whaleshark:hover {
+  box-shadow: 0 0 10px 10px #8DC6C1;
+}
+
+td img.beluga {
+hover: box-shadow: 0 0 20px 10px #8DC6C1;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 300px;
+}
+
+img.beluga:hover {
+  box-shadow: 0 0 10px 10px #8DC6C1;
+}
+
+td img.hectorsdolphin {
+hover: box-shadow: 0 0 20px 10px #8DC6C1;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 300px;
+}
+
+img.hectorsdolphin:hover {
+  box-shadow: 0 0 10px 10px #8DC6C1;
+}
+
+td img.vaquita {
+hover: box-shadow: 0 0 20px 10px #8DC6C1;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 300px;
+}
+
+img.vaquita:hover {
+  box-shadow: 0 0 10px 10px #8DC6C1;
+}
+
+td img.finwhale {
+hover: box-shadow: 0 0 20px 10px #8DC6C1;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 300px;
+}
+
+img.finwhale:hover {
+  box-shadow: 0 0 10px 10px #8DC6C1;
+}
+
+td img.greatwhiteshark{
+hover: box-shadow: 0 0 20px 10px #8DC6C1;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 300px;
+}
+
+img.greatwhiteshark:hover {
+  box-shadow: 0 0 10px 10px #8DC6C1;
+}
+
+td img.bigeyetuna {
+hover: box-shadow: 0 0 20px 10px #8DC6C1;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 300px;
+}
+
+img.bigeyetuna:hover {
+  box-shadow: 0 0 10px 10px #8DC6C1;
+}
+
+td img.greywhale {
+hover: box-shadow: 0 0 20px 10px #8DC6C1;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 300px;
+}
+
+img.greywhale:hover {
+  box-shadow: 0 0 10px 10px #8DC6C1;
+}
+
+td img.humpheadwrasse {
+hover: box-shadow: 0 0 20px 10px #8DC6C1;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 300px;
+}
+
+img.humpheadwrasse:hover {
+  box-shadow: 0 0 10px 10px #8DC6C1;
+}
+
+td img.albacoretuna {
+hover: box-shadow: 0 0 20px 10px #8DC6C1;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 300px;
+}
+
+img.albacoretuna:hover {
+  box-shadow: 0 0 10px 10px #8DC6C1;
+}
+
+td img.dugong {
+hover: box-shadow: 0 0 20px 10px #8DC6C1;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 300px;
+}
+
+img.dugong:hover {
+  box-shadow: 0 0 10px 10px #8DC6C1;
+}
+
+td img.loggerheadturtle {
+hover: box-shadow: 0 0 20px 10px #8DC6C1;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 300px;
+}
+
+img.loggerheadturtle:hover {
+  box-shadow: 0 0 10px 10px #8DC6C1;
+}
+
+td img.bluewhale {
+hover: box-shadow: 0 0 20px 10px #8DC6C1;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 300px;
+}
+
+img.bluewhale:hover {
+  box-shadow: 0 0 10px 10px #8DC6C1;
+}
+
+td img.bowheadwhale {
+hover: box-shadow: 0 0 20px 10px #8DC6C1;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 300px;
+}
+
+img.bowheadwhale:hover {
+  box-shadow: 0 0 10px 10px #8DC6C1;
+}
+
+td img.marineiguana {
+hover: box-shadow: 0 0 20px 10px #8DC6C1;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 300px;
+}
+
+img.marineiguana:hover {
+  box-shadow: 0 0 10px 10px #8DC6C1;
+}
+
+td img.oliveridleyseaturtle {
+hover: box-shadow: 0 0 20px 10px #8DC6C1;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 300px;
+}
+
+img.oliveridleyseaturtle:hover {
+  box-shadow: 0 0 10px 10px #8DC6C1;
+}
+
+
+td img.greenturtle
+ {
+hover: box-shadow: 0 0 20px 10px #8DC6C1;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 300px;
+}
+
+img.greenturtle:hover {
+  box-shadow: 0 0 10px 10px #8DC6C1;
+}
+
+
+</style>
+<body>
+
+
+<div class="container">
+  <img style="width:1424.5px;height: 205px;" src="navigation.jpg" alt="navigation">
+<a href="homepagepp.html"><button style="margin-left: 450px; border: solid #8DC6C1; border-width: 5px;color: white; font-family: avenir; font-size: 20px; width: 400px; margin-top:35px; margin-left: 250px; " class="btn1"> GO BACK TO THE HOME PAGE</button></a>
+</div>
+
+<div align="center" style="background-color: #2D3049; border-radius: 5px; width: 1415px; margin-left: 0px;font-family: avenir; color: white; border: 5px solid #8DC6C1; margin-top: 5px;"> <h2 style="font-family: avenir;"> BIBLIOGRAPHY: RESOURCES I USED </h2> </div>
+
+
+<table align="center" style="font-family: avenir; margin-top: 20px; margin-left: 400px; ">
+ 
+<td style="background-color: #2D3049;  color: white; width:582px; font-size: 16px; font-family: avenir;" > 
+  <ul>
+  <li style="width: 400px;">“Species List.”WWF, World Wildlife Fund, https://www.worldwildlife.org/species-categories/marine-animals/species/directory.
+</li>
+  <li style="width: 400px;">Wayfairer Travel. “10 Of the World's Most Endangered Marine Species.”Wayfairer Travel, https://www.wayfairertravel.com/inspiration/worlds-most-endangered-marine-species/
+</li>
+  <li style="width: 400px;">“Climate Change and Fishing.”MSC International - English, https://www.msc.org/what-we-are-doing/oceans-at-risk/climate-change-and-fishing
+</li>
+  <li style="width: 400px;">B;, Austin. “The Effects of Pollution on Fish Health.”Journal of Applied Microbiology, U.S. National Library of Medicine, https://pubmed.ncbi.nlm.nih.gov/21182713/
+</li>
+  <li style="width: 400px;">“Facts: Seaspiracy Website.”SEASPIRACY, https://www.seaspiracy.org/facts.
+</li>
+  <li style="width: 400px;">&64;CondorFerries. “100+ Ocean Pollution Statistics & Facts (2020-2021).”Condor Ferries, https://www.condorferries.co.uk/marine-ocean-pollution-statistics-facts
+</li>
+  <li style="width: 400px;">“11 Facts about Dolphin Hunts.”DoSomething.org, https://www.dosomething.org/us/facts/11-facts-about-dolphin-hunts
+</li>
+  <li style="width: 400px;">“Climate Change and Fishing.”MSC International - English, https://www.msc.org/what-we-are-doing/oceans-at-risk/climate-change-and-fishing
+</li>
+  <li style="width: 400px;">“How Fish Are Being Affected by Climate Change The National Wildlife Federation Blog.”The National Wildlife Federation Blog, 24 July 2020, https://blog.nwf.org/2020/07/how-fish-are-being-affected-by-climate-change/.
+</li>
+  <li style="width: 400px;">“60% Of the World's Fish Species at Risk of Extinction Due to Climate Change.”World Economic Forum, https://www.weforum.org/agenda/2020/07/climate-change-threatens-60-percent-of-the-world-s-fish-species.
+</li>
+  <li style="width: 400px;">B;, Austin. “The Effects of Pollution on Fish Health.”Journal of Applied Microbiology, U.S. National Library of Medicine, https://pubmed.ncbi.nlm.nih.gov/21182713/
+</li>
+  <li style="width: 400px;">US Department of Commerce, National Oceanic and Atmospheric Administration. “How Does Oil Impact Marine Life?”NOAA's National Ocean Service, 14 Mar. 2019, https://oceanservice.noaa.gov/facts/oilimpacts.html
+</li>
+  <li style="width: 400px;">Research on the Influence of Microplastics on Marine Life - Iopscience. https://iopscience.iop.org/article/10.1088/1755-1315/631/1/012006.
+</li>
+  <li style="width: 400px;">“Bioaccumulation.”Wikipedia, Wikimedia Foundation, 18 Mar. 2022, https://en.wikipedia.org/wiki/Bioaccumulation.
+</li>
+  <li style="width: 400px;">Plastic Microfibres Found in the Stomach of Deep-Sea Fish. https://www.nhm.ac.uk/discover/news/2021/february/plastic-microfibres-found-in-the-stomach-of-deepsea-fish.html.
+</li>
+  <li style="width: 400px;">“Ocean Pollution: Causes, Effects and Prevention - TDS Blog.”Texas Disposal Systems, 3 Aug. 2022, https://www.texasdisposal.com/blog/ocean-pollution-causes-effects-and-prevention/
+</li>
+  <li style="width: 400px;">Fisheries, NOAA. “Understanding Bycatch.”NOAA, https://www.fisheries.noaa.gov/insight/understanding-bycatch
+</li>
+  <li style="width: 400px;">Fisheries, NOAA. “Understanding Bycatch.”NOAA, https://www.fisheries.noaa.gov/insight/understanding-bycatch
+</li>
+  <li style="width: 400px;">“What Is Bycatch and How Can It Be Managed.”Australia & New Zealand - English, https://www.msc.org/en-au/what-we-are-doing/our-collective-impact/what-is-a-fishery/what-is-bycatch-and-how-can-it-be-managed.
+</li>
+  <li style="width: 400px;">Patrick, Wesley S., and Lee R. Benaka. “Estimating the Economic Impacts of Bycatch in U.S. Commercial Fisheries.”Marine Policy, Pergamon, 23 Sept. 2012, https://www.sciencedirect.com/science/article/abs/pii/S0308597X12001674
+</li>
+  <li style="width: 400px;">Allen, Liz. “The Bycatch Problem: How It Harms Marine Animals and How to Prevent It.”Treehugger, Treehugger, 7 Aug. 2021, https://www.treehugger.com/bycatch-impact-marine-life-5188770.
+</li>
+  <li style="width: 400px;">“Overfishing Puts $42bn Tuna Industry at Risk of Collapse.”The Guardian, Guardian News and Media, 2 May 2016, https://www.theguardian.com/sustainable-business/2016/may/02/overfishing-42bn-tuna-industry-risk-collapse.
+</li>
+  <li style="width: 400px;">About RinkeshA true environmentalist by heart ❤️. Founded Conserve Energy Future with the sole motto of providing helpful information related to our rapidly depleting environment. Unless you strongly believe in Elon Musk‘s idea of making Mars as another h , et al. “Causes, Effects and Solutions to Overfishing (Depletion of Fish Stocks).”Conserve Energy Future, 28 July 2022, https://www.conserve-energy-future.com/causes-effects-solutions-of-overfishing.php.
+</li>
+  <li style="width: 400px;">“Report: Overfishing Bad for Fish, but Worse for the Economy.”Environmental Defense Fund, https://www.edf.org/blog/2014/04/02/report-overfishing-bad-fish-worse-economy.
+</li>
+  <li style="width: 400px;">“What Is Overfishing? Facts, Effects and Overfishing Solutions.”WWF, World Wildlife Fund, https://www.worldwildlife.org/threats/overfishing
+</li>
+  <li style="width: 400px;">“Overfishing Solutions - Six Practical Things You Can Do.”Australia & New Zealand - English, https://www.msc.org/en-au/media-centre-anz/news-views/news/2019/05/30/six-practical-solutions-to-tackle-overfishing.
+</li>
+  <li style="width: 400px;">“Watch Seaspiracy: Netflix Official Site.”Watch Seaspiracy | Netflix Official Site, 24 Mar. 2021, https://www.netflix.com/watch/81014008?trackId=14170287&tctx=
+</li>
+  <li style="width: 400px;">Mar 27, 2017. “The Environmental Impacts of Boating.”Environmental Protection, https://eponline.com/Articles/2017/03/27/The-Environmental-Impacts-of-Boating.aspx
+</li>
+  <li style="width: 400px;">Daisy Hernandez Daisy writes for Runner's World. “16 Endangered Marine Animals That Need Our Help.”Popular Mechanics, 16 June 2022, https://www.popularmechanics.com/science/animals/g183/endangered-sea-creatures-pictures-03112/.
+</li>
+  <li style="width: 400px;">“Whale Shark.”WWF, World Wildlife Fund, https://www.worldwildlife.org/species/whale-shark.
+</li>
+  <li style="width: 400px;">“Beluga Whale Watching Holidays & Expeditions.”Natural World Safaris, https://www.naturalworldsafaris.com/wildlife/beluga-whales.
+</li>
+  <li style="width: 400px;">Fisheries, NOAA. “Hawksbill Turtle.”NOAA, 22 July 2022, https://www.fisheries.noaa.gov/species/hawksbill-turtle.
+</li>
+<li style="width: 400px;">Cross, Daniel T. “Noise Pollution Harms Fish in Various Ways, Scientists Say.” Sustainability Times, 19 Sept. 2020, https://www.sustainability-times.com/environmental-protection/noise-pollution-harms-fish-in-various-ways-scientists-say/
+</li>
+<li style="width: 400px;">“10 Ways You Can Help Save the Oceans.” Oceana, https://oceana.org/living-blue-10-ways-you-can-help-save-oceans/. </li>
+<li style="width: 400px;">“Protecting Marine Wildlife.” The Humane Society of the United States, https://www.humanesociety.org/all-our-fights/protecting-marine-wildlife. </li>
+
+
+</ul>  
+
+</td>
+
+
+</table>
+
+
+<img style="width: 350px; height: 300px;margin-top: -9000px; margin-left: 20px; margin-bottom: 2815px;" src="hawksbillseaturtle.jpg" class="hawksbillseaturtle">
+
+<img style="width: 370px; height: 300px; margin-top: -11000px; margin-left: 1030px; margin-bottom: 2835px;" src="whaleshark.jpg" class="whaleshark">
+
+<img style="width: 370px; height: 280px; margin-top: -3000px; margin-left: 1030px; margin-bottom: 2530px;" src="beluga.jpg" class="beluga">
+
+<img style="width: 350px; height: 280px; margin-top: -9000px; margin-left: 20px; margin-bottom: 2540px;" src="hectorsdolphin.jpg" class="hectorsdolphin">
+
+<img style="width: 370px; height: 320px; margin-top: -3000px; margin-left: 1030px; margin-bottom: 2198px;" src="vaquita.jpg" class="vaquita">
+
+<img style="width: 350px; height: 320px; margin-top: -9000px; margin-left: 20px; margin-bottom: 2215px;" src="finwhale.jpg" class="finwhale">
+
+<img style="width: 370px; height: 287px; margin-top: -3000px; margin-left: 1030px; margin-bottom: 1900px;" src="greatwhiteshark.jpg" class="greatwhiteshark">
+<img style="width: 350px; margin-top: -9000px; margin-left: 20px; margin-bottom: 1920px;" src="bigeyetuna.jpg" class="bigeyetuna">
+
+<img style="width: 370px; height: 287px; margin-top: -3000px; margin-left: 1030px; margin-bottom: 1600px;" src="greywhale.jpg" class="greywhale">
+
+<img style="width: 350px; height: 290px; margin-top: -9000px; margin-left: 20px; margin-bottom: 1615px;" src="humpheadwrasse.jpg" class="humpheadwrasse">
+
+<img style="width: 370px; height: 307px; margin-top: -3000px; margin-left: 1030px; margin-bottom: 1290px;" src="albacoretuna.jpg" class="albacoretuna">
+
+<img style="width: 350px; height: 300px; margin-top: -9000px; margin-left: 20px; margin-bottom: 1305px;" src="dugong.jpg" class="dugong">
+
+<img style="width: 370px; height: 298px; margin-top: -3000px; margin-left: 1030px; margin-bottom: 980px;" src="loggerheadturtle.jpg" class="loggerheadturtle">
+<img style="width: 350px; height: 290px; margin-top: -9000px; margin-left: 20px; margin-bottom: 995px;" src="bluewhale.jpg" class="bluewhale">
+
+<img style="width: 370px; height: 320px; margin-top: -3000px; margin-left: 1030px; margin-bottom: 650px;" src="bowheadwhale.jpg" class="bowheadwhale">
+
+<img style="width: 350px; height: 320px; margin-top: -9000px; margin-left: 20px; margin-bottom: 660px;" src="marineiguana.jpg" class="marineiguana">
+
+<img style="width: 370px; height: 330px; margin-top: -3000px; margin-left: 1030px; margin-bottom: 315px;" src="oliveridleyseaturtle.jpg" class="oliveridleyseaturtle">
+<img style="width: 350px; height: 320px; margin-top: -9000px; margin-left: 20px; margin-bottom: 335px;" src="greenturtle.jpg" class="greenturtle">
+</body>
+</html>
